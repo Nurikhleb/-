@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скример</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+        video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay playsinline>
+        <source src="your-screamer-video.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+    <script>
+        setTimeout(() => {
+            // Эффект резкого звука или другого контента, который появится спустя время
+            alert('БУ!');
+        }, 3000); // 3 секунды перед скримером
+    </script>
+</body>
+</html>
